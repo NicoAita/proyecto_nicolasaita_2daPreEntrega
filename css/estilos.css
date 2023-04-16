@@ -1,0 +1,500 @@
+    /*fuente de la página*/
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;600;700&display=swap');
+
+    *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    }
+    body{
+        font-family: 'Quicksand', sans-serif;
+    }
+
+
+    /*-------------- BODY ---------------*/   
+
+    
+    .bodyFondo{ 
+        background-image: url("../assets/img/Fondo\ Amarillo.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+       background-attachment: fixed;
+
+       
+    }
+
+    .bodyFondo--boludecesPagas{ 
+        background-image: url("../assets/img/Fondo\ Rojo.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+       background-attachment: fixed;
+     
+    }
+
+    .bodyFondo--muyBerreta{ 
+        background-image: url("../assets/img/Fondo\ Celeste.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+       background-attachment: fixed;
+     
+    }
+
+    .bodyFondo--lírico{ 
+        background-image: url("../assets/img/Fondo\ Fucsia.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+       background-attachment: fixed;
+     
+    }
+
+
+    .bodyFondo--haciendores{ 
+        background-image: url("../assets/img/Fondo\ Verde.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+       background-attachment: fixed;
+
+
+    
+    /*-------------- HEADER ---------------*/   
+       
+
+    }
+    .header__contenedor {
+        width:15%;
+        display: inline-block;
+        padding-top: 20px;
+        margin-left: 80px;
+        /*background-color: green;*/
+    }
+
+    .header__contenedor__logo {
+        width: 120%;
+        
+    } 
+
+    
+    .header__contenedor__slogan {
+        width: 50%;
+        margin:0 auto;
+        display: flex;
+        justify-content: center;
+        margin-top: -170px;
+             /*esto es para centrar mi slogan y dejarlo al costado del logo*/
+           }
+ 
+        
+     
+    .header__contenedor__nav {
+    text-align: center;
+    /*display: inline-block;*/
+    /* background-color:rgb(255, 60, 0) */ 
+    
+                }
+
+
+    .header__contenedor__nav__li{
+    list-style:none;
+    display:inline-block;
+    padding: 10px;
+                }
+            
+    .header__contenedor__nav__li__a{
+    text-decoration:none;
+    color:black;
+                       
+            }
+            
+    .header__contenedor__iconos { 
+    font-size: 30px;
+    color: black;
+    position: relative;
+    right: -1150px;
+    top: -100px;
+
+    }
+   
+ /*-------------- PRIMERA SECTION ---------------*/   
+
+    .section__contenedor__head {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 2rem;
+    text-align: center;
+    /*background-color: blue;*/
+     
+    }
+
+
+    .section__contenedor__parrafo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 3%;
+        text-align: center;
+        
+       
+        /*background-color: blueviolet; */ 
+
+    }
+
+ 
+    .section__contenedor__parrafo__span { 
+       
+        font-weight: bold;
+    }
+
+
+/*--------------SEGUNDA SECTION---------------*/
+
+
+ 
+
+
+    .section__contenedor__head2 {
+        margin-top: 3%;
+        margin-bottom: 1%;
+        font-size: 1.7rem;
+        text-align: center;
+        /* background-color: blue; */
+         
+        }
+
+    .section__contenedor__tarjetas{
+            display: flex;
+            justify-content: center;
+            margin-top: 3%;
+            margin-bottom: 3%;
+           
+            /*background-color: brown;*/
+        }
+
+    .section__contenedor__tarjetas__card{ 
+            margin: 10px;
+            max-width: 50%;
+            /*background-color: rgb(217, 255, 0);*/
+        }
+
+
+    .section__contenedor__videoCentrado{
+
+        text-align: center;
+        margin-top: 3%;
+        margin-bottom: 5%;
+       /*background-color: brown;*/
+
+        }
+
+    .section__contenedor__videoCentrado_hombreCroma {
+            width: 50%;
+            display: inline-block;
+           /*background-color: rgb(150, 182, 33);*/   
+
+        }
+     
+       
+           
+       
+        .section__contenedor__imagenTexto {
+          
+          display: flex;
+          margin: 0 auto;
+          width: 90%;
+          flex-wrap: wrap;
+          align-items: center;
+          
+          /*background-color: yellow;*/
+                        
+            
+        }
+
+     
+
+        .section__contenedor__imagenTexto__imagenIzquierda {
+            
+            width: 700px;
+            height: 700px;
+            text-align: center;
+            margin-top: -5%;
+          /* background-color: blue; */
+              
+          
+
+    }
+
+    
+
+    .section__contenedor__imagenTexto__imagenIzquierda img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        max-width: 100%;
+      }
+
+
+     
+   
+
+      .section__contenedor__imagenTexto__textoDerecha {
+
+        flex: 1 1 auto;
+        width: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        background-color: rgb(172, 252, 179);
+        padding: 5%;
+      }
+             
+      .section__contenedor__imagenTexto__textoDerecha p {
+               
+        color: black;
+        text-align: left;
+    }
+
+    .section__contenedor__imagenTexto__textoDerecha__pedacitos {
+        flex: 1 1 auto;
+        width: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        background-color: rgb(252, 172, 245);
+        padding: 5%;
+        
+    }
+
+    .section__contenedor__imagenTexto2 {
+          
+        display: flex;
+      
+        margin: 0 auto;
+        width: 90%;
+        flex-wrap: wrap;
+        align-items: center;
+        
+         /*background-color: blueviolet */
+                      
+          
+      }
+
+    .section__contenedor__imagenTexto2__imagenDerecha {
+            
+      
+        width: 500px;
+        height: 500px;
+        text-align: center;
+        margin-top: -5%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+       /* background-color: aqua;*/
+        
+      
+       
+       
+    }
+
+    .section__contenedor__imagenTexto2__imagenDerecha iframe {
+        
+        width: 55%;
+        height: 100%;
+        text-align: center;
+        object-fit: contain;
+        max-width: 100%;
+        background-color: blue;
+      }
+
+      .section__contenedor__imagenTexto2__imagenDerecha img {
+        display: flex;
+        width: 110%;
+        height: 110%;
+        margin-top: -10%;
+        object-fit: contain;
+        justify-content: center;
+     
+        /*background-color: blueviolet;*/
+      }
+
+      .section__contenedor__imagenTexto2__imagenDerecha__bondi {
+        display: flex;
+        /*width: 550px;
+        height: 550px;*/
+        width: 30%;
+        text-align: center;
+        margin-top: 2%;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+        flex-direction: column;
+        justify-content: center;
+      /* background-color: aqua;*/
+
+       
+      }
+
+      .section__contenedor__imagenTexto2__imagenIzquierda__pedacitos {
+        display: flex;
+        /*width: 550px;
+        height: 550px;*/
+        width: 30%;
+        text-align: center;
+        margin-top: 2%;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+        flex-direction: column;
+        justify-content: center;
+      /* background-color: aqua;*/
+
+       
+      }
+      
+    
+
+      .section__contenedor__imagenTexto2__textoIzquierda {
+               
+        flex: 1 1 auto;
+        width: 20%;
+        margin-left: 10%;
+        margin-top: -10%;
+        background-color: rgb(172, 252, 179);
+        padding: 5%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+        /* width: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        background-color: rgb(172, 252, 179);
+        padding: 5%; */
+        
+    }
+
+
+      .section__contenedor__imagenTexto__textoIzquierda p {
+               
+        color: black;
+        text-align: left;
+
+    }
+
+
+    .section__contenedor__imagenTexto__textoIzquierda__lirico {
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1 1 auto;
+        width: 10%;
+        margin-left: 5%;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        background-color: rgb(252, 172, 245);
+        padding: 2%;
+        text-align: left;
+        flex-direction: column;
+        justify-content: center;
+    
+      }
+
+    .section__contenedor__parrafo__span__espacio__p {
+        margin-top: 10px;
+    }
+
+    .section__contenedor__parrafo__hombreCroma {
+        margin-top: -3%;
+        padding: 5%;
+        width: 65%;
+     background-color: rgb(243, 159, 126);
+       
+
+
+    }
+
+
+
+
+/*-------------- FOOTER ---------------*/
+
+        .footer {
+            text-align: center;
+            background-color: black;
+            height: auto;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            
+            
+              /*background-color:rgb(0, 0, 0)*/
+        }
+    
+        .footer__contenedor__texto { 
+            color: white;
+            margin-bottom: 2%;
+        }
+
+    
+
+    .alineadorImgTxt {
+        display: inline-block;
+        width: 50%;
+        margin-left: 200px;
+      }
+
+    .parrafosALaDerecha {
+        margin-left: 500px;
+       
+      
+    }
+
+
+
+
+    
+    
+
+  
+     .elementoAlineadoIz{ 
+        margin-left: 100px;
+        display: flex       
+    }
+
+.parrafoSupDerecho {
+    position: relative;
+    right: 20px;
+   
+
+}
+
+    .elementoAlineadoDerecha{ 
+        text-align: right;
+        margin-right: 100px;
+    }
+
+    .elementoAlineadoDerecha p {
+        text-align: left;
+    }
+
+        
+            
+       .formularioBloque {
+        
+        width: 15%;  
+        margin: auto;
+        margin-bottom: 2%;
+        justify-content: center;
+    
+        /*background-color: brown;*/
+        }
+
+   
+     
+
+    .vh{
+        height: 100vh; /*Msj al Tutor o Profe: no entiendo por qué no se me aplica el vh*/
+           }
+     
