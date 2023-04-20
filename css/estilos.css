@@ -1,133 +1,127 @@
     /*fuente de la página*/
     @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;600;700&display=swap');
 
-    *{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
-    body{
+
+    body {
         font-family: 'Quicksand', sans-serif;
     }
 
 
-    /*-------------- BODY ---------------*/   
+    /*-------------- BODY ---------------*/
 
-    
-    .bodyFondo{ 
+
+    .bodyFondo {
         background-image: url("../assets/img/Fondo\ Amarillo.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-       background-attachment: fixed;
+        background-attachment: fixed;
 
-       
+
     }
 
-    .bodyFondo--boludecesPagas{ 
+    .bodyFondo--boludecesPagas {
         background-image: url("../assets/img/Fondo\ Rojo.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-       background-attachment: fixed;
-     
+        background-attachment: fixed;
+
     }
 
-    .bodyFondo--muyBerreta{ 
+    .bodyFondo--muyBerreta {
         background-image: url("../assets/img/Fondo\ Celeste.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-       background-attachment: fixed;
-     
+        background-attachment: fixed;
+
     }
 
-    .bodyFondo--lírico{ 
+    .bodyFondo--lírico {
         background-image: url("../assets/img/Fondo\ Fucsia.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-       background-attachment: fixed;
-     
+        background-attachment: fixed;
+
     }
 
 
-    .bodyFondo--haciendores{ 
+    .bodyFondo--haciendores {
         background-image: url("../assets/img/Fondo\ Verde.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-       background-attachment: fixed;
+        background-attachment: fixed;
 
 
-    
-    /*-------------- HEADER ---------------*/   
-       
+
+        /*-------------- HEADER ---------------*/
+
 
     }
+
     .header__contenedor {
-        width:15%;
+        width: 15%;
         display: inline-block;
         padding-top: 20px;
         margin-left: 80px;
-        /*background-color: green;*/
+        /*ESTE LO PUEDO BORRAR*/
+
     }
 
     .header__contenedor__logo {
-        width: 120%;
-        
-    } 
-
-    
-    .header__contenedor__slogan {
         width: 50%;
-        margin:0 auto;
-        display: flex;
-        justify-content: center;
-        margin-top: -170px;
-             /*esto es para centrar mi slogan y dejarlo al costado del logo*/
-           }
- 
-        
-     
-    .header__contenedor__nav {
-    text-align: center;
-    /*display: inline-block;*/
-    /* background-color:rgb(255, 60, 0) */ 
-    
-                }
+        margin-left: 30px;
 
-
-    .header__contenedor__nav__li{
-    list-style:none;
-    display:inline-block;
-    padding: 10px;
-                }
-            
-    .header__contenedor__nav__li__a{
-    text-decoration:none;
-    color:black;
-                       
-            }
-            
-    .header__contenedor__iconos { 
-    font-size: 30px;
-    color: black;
-    position: relative;
-    right: -1150px;
-    top: -100px;
 
     }
-   
- /*-------------- PRIMERA SECTION ---------------*/   
+
+
+
+    .header__contenedor__slogan img {
+
+        margin-top: 2%;
+
+    }
+
+
+    .header__contenedor__iconos {
+        font-size: 30px;
+        color: black;
+        margin-right: 10px;
+
+    }
+
+    .fondoColor {
+        background-color: blueviolet;
+    }
+
+
+    
+
+
+    /*Navbar Bst*/
+
+    .navbar-light .navbar-nav .linkNegro {
+        color: black;
+    }
+
+    /*-------------- PRIMERA SECTION ---------------*/
 
     .section__contenedor__head {
-    margin-top: 3%;
-    margin-bottom: 3%;
-    font-size: 2rem;
-    text-align: center;
-    /*background-color: blue;*/
-     
+        margin-top: 3%;
+        margin-bottom: 3%;
+        font-size: 2rem;
+        text-align: center;
+        /*background-color: blue;*/
+
     }
 
 
@@ -140,23 +134,23 @@
         margin-right: 10%;
         margin-bottom: 3%;
         text-align: center;
-        
-       
-        /*background-color: blueviolet; */ 
+
+
+        /*background-color: blueviolet; */
 
     }
 
- 
-    .section__contenedor__parrafo__span { 
-       
+
+    .section__contenedor__parrafo__span {
+
         font-weight: bold;
     }
 
 
-/*--------------SEGUNDA SECTION---------------*/
+    /*--------------SEGUNDA SECTION---------------*/
 
 
- 
+
 
 
     .section__contenedor__head2 {
@@ -165,85 +159,254 @@
         font-size: 1.7rem;
         text-align: center;
         /* background-color: blue; */
-         
-        }
-
-    .section__contenedor__tarjetas{
-            display: flex;
-            justify-content: center;
-            margin-top: 3%;
-            margin-bottom: 3%;
-           
-            /*background-color: brown;*/
-        }
-
-    .section__contenedor__tarjetas__card{ 
-            margin: 10px;
-            max-width: 50%;
-            /*background-color: rgb(217, 255, 0);*/
-        }
-
-
-    .section__contenedor__videoCentrado{
-
-        text-align: center;
-        margin-top: 3%;
-        margin-bottom: 5%;
-       /*background-color: brown;*/
-
-        }
-
-    .section__contenedor__videoCentrado_hombreCroma {
-            width: 50%;
-            display: inline-block;
-           /*background-color: rgb(150, 182, 33);*/   
-
-        }
-     
-       
-           
-       
-        .section__contenedor__imagenTexto {
-          
-          display: flex;
-          margin: 0 auto;
-          width: 90%;
-          flex-wrap: wrap;
-          align-items: center;
-          
-          /*background-color: yellow;*/
-                        
-            
-        }
-
-     
-
-        .section__contenedor__imagenTexto__imagenIzquierda {
-            
-            width: 700px;
-            height: 700px;
-            text-align: center;
-            margin-top: -5%;
-          /* background-color: blue; */
-              
-          
 
     }
 
-    
+    .section__contenedor__tarjetas {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 3%;
+        margin-bottom: 3%;
+
+        /*background-color: brown;*/
+    }
+
+  
+    .section__contenedor__imagenTexto {
+
+        display: flex;
+        margin: 0 auto;
+        width: 90%;
+        flex-wrap: wrap;
+        align-items: center;
+
+        /*background-color: yellow;*/
+
+
+    }
+
+/*---------MUY BERRETA Gise--------*/
+
+.izquierdaTextoViejoDeM {
+    /*height: 50vh; SACAR SI SE SOBREPASA EL TEXTO*/
+    display: flex;
+    height: 20vh;
+    align-items: center;
+    padding: 4%;
+
+    background-color: rgb(134, 216, 248);
+}
+
+.derechaVideoViejoDeM {
+
+  
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    overflow: hidden;
+    height: 60vh;
+    width: auto;
+ 
+   
+    /*background-color: rgb(165, 61, 42);*/
+
+
+
+}
+
+.derechaVideoViejoDeM iframe {
+    display: flex;
+    width: 210px;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+/*---------FIN MUY BERRETA Gise--------*/
+
+
+    /*------- LÍRICO Lección Gise --------*/
+
+    .izquierdaTextoLírico {
+        /*height: 50vh; SACAR SI SE SOBREPASA EL TEXTO*/
+        display: flex;
+        align-items: center;
+        padding: 4%;
+
+        background-color: rgb(252, 172, 245);
+    }
+
+    .derechaTextoLírico {
+
+        height: 50vh;
+        /*SACAR SI SE SOBREPASA EL TEXTO*/
+        display: flex;
+        align-items: center;
+
+        padding: 4%;
+
+        background-color: rgb(252, 172, 245);
+    }
+
+    .derechaFotoBondi {
+        background-image: url(../assets/img/Cuentos\ de\ Bondi.jpg);
+        height: 90vh;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        /* background-color: aqua; */
+
+    }
+
+    .izquierdaFotoEspejo {
+        background-image: url(../assets/img/Pedacitos.jpg);
+        height: 90vh;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        /* background-color: aqua; */
+
+    }
+
+    /*------- FIN LÍRICO Lección Gise --------*/
+
+
+
+    /*------ IMAGEN Y TEXTO EN HACIENDORES Lección Gise ------*/
+
+    .espacioEnPantalla {
+        padding: 5%;
+        /*background-color: blueviolet*/
+        ;
+    }
+
+    .alinear {
+        align-items: center;
+    }
+
+
+    .izquierdaPelisRewind {
+        background-image: url(../assets/img/Tincho\ Tenaglia.png);
+        height: 50vh;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        /* background-color: aqua; */
+
+
+    }
+
+    .izquierdaFlavor {
+        background-image: url(../assets/img/Flavio\ Herrera.png);
+        height: 50vh;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        /* background-color: aqua; */
+
+
+    }
+
+    .derechaComicFlavor {
+        background-image: url(../assets/img/Flavor-Comic.png);
+        height: 50vh;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        /*  background-color: rgb(255, 102, 0);  */
+
+
+    }
+
+
+
+    .derechaTextoHaciendores {
+        height: 50vh;
+        /*SACAR SI SE SALE EL TEXTO*/
+        display: flex;
+        align-items: center;
+
+        padding: 4%;
+
+        background-color: rgb(172, 252, 179);
+    }
+
+
+
+    .izquierdaTextoHaciendores {
+        /* height: 40vh; SE LO SACO PARA QUE NO ME COMPLIQUE EN MOBILE*/
+        display: flex;
+        align-items: center;
+        padding: 4%;
+
+        background-color: rgb(172, 252, 179);
+    }
+
+    .derechaPelisRewind {
+
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        align-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        object-fit: cover;
+        margin-top: -3%;
+        /*background-color: rgb(165, 61, 42);*/
+
+
+
+    }
+
+    .derechaPelisRewind iframe {
+        display: flex;
+        width: 210px;
+        height: 100%;
+        object-fit: cover;
+
+    }
+
+
+
+
+
+    /*------ FIN IMAGEN Y TEXTO EN HACIENDORES Lección Gise ------*/
+
+
+
+
+    .section__contenedor__imagenTexto__imagenIzquierda {
+
+        width: 700px;
+        height: 700px;
+        text-align: center;
+        margin-top: -5%;
+        /* background-color: blue; */
+
+
+
+    }
+
+
 
     .section__contenedor__imagenTexto__imagenIzquierda img {
         width: 100%;
         height: 100%;
         object-fit: contain;
         max-width: 100%;
-      }
+    }
 
 
-     
-   
 
-      .section__contenedor__imagenTexto__textoDerecha {
+
+
+    .section__contenedor__imagenTexto__textoDerecha {
 
         flex: 1 1 auto;
         width: 5%;
@@ -251,10 +414,10 @@
         margin-right: 5%;
         background-color: rgb(172, 252, 179);
         padding: 5%;
-      }
-             
-      .section__contenedor__imagenTexto__textoDerecha p {
-               
+    }
+
+    .section__contenedor__imagenTexto__textoDerecha p {
+
         color: black;
         text-align: left;
     }
@@ -266,61 +429,61 @@
         margin-right: 5%;
         background-color: rgb(252, 172, 245);
         padding: 5%;
-        
+
     }
 
     .section__contenedor__imagenTexto2 {
-          
+
         display: flex;
-      
+
         margin: 0 auto;
         width: 90%;
         flex-wrap: wrap;
         align-items: center;
-        
-         /*background-color: blueviolet */
-                      
-          
-      }
+
+        /*background-color: blueviolet */
+
+
+    }
 
     .section__contenedor__imagenTexto2__imagenDerecha {
-            
-      
+
+
         width: 500px;
         height: 500px;
         text-align: center;
         margin-top: -5%;
         margin-left: 5%;
         margin-bottom: 5%;
-       /* background-color: aqua;*/
-        
-      
-       
-       
+        /* background-color: aqua;*/
+
+
+
+
     }
 
     .section__contenedor__imagenTexto2__imagenDerecha iframe {
-        
+
         width: 55%;
         height: 100%;
         text-align: center;
         object-fit: contain;
         max-width: 100%;
         background-color: blue;
-      }
+    }
 
-      .section__contenedor__imagenTexto2__imagenDerecha img {
+    .section__contenedor__imagenTexto2__imagenDerecha img {
         display: flex;
         width: 110%;
         height: 110%;
         margin-top: -10%;
         object-fit: contain;
         justify-content: center;
-     
+
         /*background-color: blueviolet;*/
-      }
+    }
 
-      .section__contenedor__imagenTexto2__imagenDerecha__bondi {
+    .section__contenedor__imagenTexto2__imagenDerecha__bondi {
         display: flex;
         /*width: 550px;
         height: 550px;*/
@@ -332,12 +495,12 @@
         margin-bottom: 5%;
         flex-direction: column;
         justify-content: center;
-      /* background-color: aqua;*/
+        /* background-color: aqua;*/
 
-       
-      }
 
-      .section__contenedor__imagenTexto2__imagenIzquierda__pedacitos {
+    }
+
+    .section__contenedor__imagenTexto2__imagenIzquierda__pedacitos {
         display: flex;
         /*width: 550px;
         height: 550px;*/
@@ -349,15 +512,15 @@
         margin-bottom: 5%;
         flex-direction: column;
         justify-content: center;
-      /* background-color: aqua;*/
+        /* background-color: aqua;*/
 
-       
-      }
-      
-    
 
-      .section__contenedor__imagenTexto2__textoIzquierda {
-               
+    }
+
+
+
+    .section__contenedor__imagenTexto2__textoIzquierda {
+
         flex: 1 1 auto;
         width: 20%;
         margin-left: 10%;
@@ -368,18 +531,18 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-       
+
         /* width: 5%;
         margin-left: 5%;
         margin-right: 5%;
         background-color: rgb(172, 252, 179);
         padding: 5%; */
-        
+
     }
 
 
-      .section__contenedor__imagenTexto__textoIzquierda p {
-               
+    .section__contenedor__imagenTexto__textoIzquierda p {
+
         color: black;
         text-align: left;
 
@@ -399,78 +562,67 @@
         text-align: left;
         flex-direction: column;
         justify-content: center;
-    
-      }
+
+    }
 
     .section__contenedor__parrafo__span__espacio__p {
         margin-top: 10px;
     }
 
-    .section__contenedor__parrafo__hombreCroma {
-        margin-top: -3%;
-        padding: 5%;
-        width: 65%;
-     background-color: rgb(243, 159, 126);
-       
+
+   
+    /*-------------- FOOTER ---------------*/
+
+    .footer {
+        text-align: center;
+        background-color: black;
+        height: auto;
+        padding-top: 2%;
+        padding-bottom: 2%;
 
 
+        /*background-color:rgb(0, 0, 0)*/
+    }
+
+    .footer__contenedor__texto {
+        color: white;
+        margin-bottom: 2%;
     }
 
 
-
-
-/*-------------- FOOTER ---------------*/
-
-        .footer {
-            text-align: center;
-            background-color: black;
-            height: auto;
-            padding-top: 2%;
-            padding-bottom: 2%;
-            
-            
-              /*background-color:rgb(0, 0, 0)*/
-        }
-    
-        .footer__contenedor__texto { 
-            color: white;
-            margin-bottom: 2%;
-        }
-
-    
 
     .alineadorImgTxt {
         display: inline-block;
         width: 50%;
         margin-left: 200px;
-      }
+    }
 
     .parrafosALaDerecha {
         margin-left: 500px;
-       
-      
+
+
     }
 
 
 
 
-    
-    
 
-  
-     .elementoAlineadoIz{ 
+
+
+
+    .elementoAlineadoIz {
         margin-left: 100px;
-        display: flex       
+        display: flex
     }
 
-.parrafoSupDerecho {
-    position: relative;
-    right: 20px;
-   
+    .parrafoSupDerecho {
+        position: relative;
+        right: 20px;
 
-}
 
-    .elementoAlineadoDerecha{ 
+    }
+
+    .elementoAlineadoDerecha {
         text-align: right;
         margin-right: 100px;
     }
@@ -479,22 +631,60 @@
         text-align: left;
     }
 
-        
-            
-       .formularioBloque {
-        
-        width: 15%;  
+
+
+    .formularioBloque {
+
+        width: 15%;
         margin: auto;
         margin-bottom: 2%;
         justify-content: center;
-    
+
         /*background-color: brown;*/
+    }
+
+
+
+    /*
+    .vh {
+        height: 100vh;
+         Msj al Tutor o Profe: no entiendo por qué no se me aplica el vh 
+    }
+    */
+
+
+    @media screen and (min-width: 0px) and (max-width:768px) {
+
+
+        .header__contenedor__logo {
+
+            width: 60%;
+
         }
 
-   
-     
 
-    .vh{
-        height: 100vh; /*Msj al Tutor o Profe: no entiendo por qué no se me aplica el vh*/
-           }
-     
+
+        .header__contenedor__slogan img {
+
+            width: 450px;
+
+        }
+
+
+        .izquierdaTextoLírico {
+
+           margin-top: 10px;
+           margin-bottom: 30px;
+
+        }
+        .derechaTextoLírico {
+
+            margin-top: 30px;
+            margin-bottom: 10px;
+ 
+         }
+
+
+
+
+    }
